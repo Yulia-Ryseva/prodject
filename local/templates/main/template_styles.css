@@ -1,0 +1,81 @@
+@font-face {
+	font-family: 'Larken-Regular'; 
+	src: url("/bitrix/templates/test/fonts/Larken-Regular.ttf"); 
+}
+
+@font-face {
+	font-family: 'Roboto'; 
+	src: url("/bitrix/templates/test/fonts/Roboto.ttf"); 
+}
+
+.hidden {
+    display: none;
+}
+
+.block-our-project {
+    background-color: #181B23;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.sub-title {
+    color: #FFC978;
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: 'Larken-Regular';
+    letter-spacing: 3px;
+}
+
+.block-our-project--title {
+    color: #FFF;
+    font-weight: 400;
+    font-size: 32px;
+    font-family: 'Larken-Regular';
+    line-height: 48px;
+}
+
+.block-our-project--filter {
+
+}
+
+.block-our-project--filter ul {
+    text-align: right;
+    line-height: 58px;
+}
+
+.block-our-project--filter ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.block-our-project--filter ul li a {
+    color: #ABAEB7;
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: none;
+    font-family: "Roboto";
+}
+
+.block-our-project--filter ul li a.active,  .block-our-project--filter ul li a:hover {
+    text-decoration: underline;
+    color: #FFB076;
+}
+
+.block-our-project--list {
+    margin-top: 40px;
+}
+
+.block-our-project--element {
+    margin-bottom: 30px;
+}
+
+.block-our-project--list .row > div:nth-child(2n) {
+    
+}
+
+.block-our-project--list .row > div:nth-child(2n+1) .block-our-project--element {
+    position: relative;
+    top: -30px;
+}
+

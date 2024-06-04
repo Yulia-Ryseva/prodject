@@ -1,0 +1,12 @@
+# Directories
+/bitrix
+/pdf
+/cgi-bin
+/tmp
+/upload
+
+# Files
+/.htaccess
+/.htaccess_*
+/*.html
+/*.restore
